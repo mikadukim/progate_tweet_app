@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   post "posts/create" => "posts#create"
   get "posts/:id" => "posts#show"
   get "posts/:id/edit" => "posts#edit"
+  post "posts/:id/update" => "posts#update"
 end
